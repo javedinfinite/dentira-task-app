@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import firebase from "firebase";
 import { connect } from "react-firebase";
-import { Form, TextArea, Card } from 'semantic-ui-react'
+import { Form, TextArea, Card, Button, Icon } from 'semantic-ui-react'
 import MyCard from './components/MyCard'
 
 firebase.initializeApp({
@@ -25,16 +25,13 @@ const Task = ({ taskList, changeList, addToList, deleteItem }) => {
   <div style={{padding:'1%'}}>
     <Card.Group>
     {
-      // <TextArea type="text" key={key} value={list[key]} onChange={(e)=>onChangeUpdate(e,key)} />
+      
       Object.keys(list).map((key)=> <MyCard deleteItem={deleteItem} currentkey={key} key={key} onChangeUpdate={onChangeUpdate} header='my header' meta='my meta' description={list[key]}></MyCard> )
     
     }
-    </Card.Group>
-
-
-<div style={{marginTop:'5%', right:'5%'}} onClick={() => setEdit(true)}  onBlur={()=>setEdit(false)}   >
+    <div style={{marginTop:'5%', right:'5%'}} onClick={() => setEdit(true)}  onBlur={()=>setEdit(false)}   >
     
-    {!edit ? <span>Add</span> :  <TextArea type="text" key={"new"} autoFocus  value={newValue} placeholder={"Add an item"} onBlur={(e)=>{
+    {!edit ? <Button color='blue'> Add <Icon name='plus right' /></Button> :  <TextArea type="text" key={"new"} autoFocus  value={newValue} placeholder={"Add an item"} onBlur={(e)=>{
       
       if(newValue){
         addToList(newValue);
@@ -46,6 +43,10 @@ const Task = ({ taskList, changeList, addToList, deleteItem }) => {
     onChange={(e) => setNewvalue(e.target.value)}    />  } 
 
     </div>
+    </Card.Group>
+
+
+
 
 
    

@@ -23,7 +23,7 @@ const MyTextArea = (prop) => {
      
      
     <Card.Description>
-    {prop.description} <strong>musicians</strong>
+    {prop.description}
     </Card.Description>
   </Card.Content>
 
