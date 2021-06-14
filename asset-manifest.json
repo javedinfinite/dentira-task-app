@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dentira-task-app/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/dentira-task-app/static/js/main.f10320e4.chunk.js",
+    "main.js.map": "/dentira-task-app/static/js/main.f10320e4.chunk.js.map",
+    "runtime-main.js": "/dentira-task-app/static/js/runtime-main.e38c8d2f.js",
+    "runtime-main.js.map": "/dentira-task-app/static/js/runtime-main.e38c8d2f.js.map",
+    "static/css/2.5db0e98f.chunk.css": "/dentira-task-app/static/css/2.5db0e98f.chunk.css",
+    "static/js/2.67bae2f8.chunk.js": "/dentira-task-app/static/js/2.67bae2f8.chunk.js",
+    "static/js/2.67bae2f8.chunk.js.map": "/dentira-task-app/static/js/2.67bae2f8.chunk.js.map",
+    "static/js/3.25fd010c.chunk.js": "/dentira-task-app/static/js/3.25fd010c.chunk.js",
+    "static/js/3.25fd010c.chunk.js.map": "/dentira-task-app/static/js/3.25fd010c.chunk.js.map",
+    "index.html": "/dentira-task-app/index.html",
+    "static/css/2.5db0e98f.chunk.css.map": "/dentira-task-app/static/css/2.5db0e98f.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/dentira-task-app/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.67bae2f8.chunk.js.LICENSE.txt": "/dentira-task-app/static/js/2.67bae2f8.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/dentira-task-app/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e38c8d2f.js",
+    "static/css/2.5db0e98f.chunk.css",
+    "static/js/2.67bae2f8.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.f10320e4.chunk.js"
+  ]
+}
